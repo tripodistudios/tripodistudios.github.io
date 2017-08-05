@@ -1,21 +1,27 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import NavbarCustom from "./component/NavbarCustom";
+import Header from "./component/Header";
+import About from "./component/About";
+import Service from "./component/Service";
+import Team from "./component/Team";
+import Footer from "./component/Footer";
+
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to Tripodi Studios</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
+    render() {
+        const styleTest = {height:"100%", width: "100%"};
+        return (
+            <div style={styleTest}>
+            <NavbarCustom />
+            <Header />
+            <About />
+            <Service />
+            <Team />
+            <Footer />
+            </div>
+        );
+    }
 }
 
 export default App;
