@@ -13,6 +13,7 @@ export default class Header extends Component {
             <div id="content-row" className="row">
                 <div id="content-container" className="">
                     <img src={logo} className="App-logo img-responsive" alt="logo" />
+                    <h2 className="text-center">Actions speak louder than words.</h2>
                 </div>
             </div>
         </header>

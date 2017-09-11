@@ -3,22 +3,9 @@
 }
 
 .App-logo {
-    /* animation: pulse 3s infinite; */
     max-height: 450px;
     display: inline-block;
 }
-
-.vcenter {
-    /* vertical-align:middle; */
-}
-
-/* .tripodi-title-main { */
-/*     font-size: 3em; */
-/* } */
-
-/* .tripodi-title-bottom { */
-/*     font-size: 3em; */
-/* } */
 
 .App-header {
     background-color: #222;
@@ -31,60 +18,3 @@
     font-size: large;
 }
 
-@keyframes pulse {
-    0% {
-        opacity: 1;
-    }
-    10% {
-        opacity: 0.95;
-    }
-    20% {
-        opacity: 0.9;
-    }
-    30% {
-        opacity: 0.85;
-    }
-    40% {
-        opacity: 0.80;
-    }
-    50% {
-        opacity: 0.75;
-    }
-    60% {
-        opacity: 0.8;
-    }
-    70% {
-        opacity: 0.85;
-    }
-    80% {
-        opacity: 0.9;
-    }
-    90% {
-        opacity: 0.95;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-.vertical-center {
-  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
-  min-height: 100vh; /* These two lines are counted as one :-)       */
-  display: flex;
-  align-items: center;
-}
-
-/* @keyframes pulse { */
-/*   0% { */
-/*     -moz-box-shadow: 0 0 0 0 rgba(46,49,146, 0.4); */
-/*     box-shadow: 0 0 0 0 rgba(46,49,146, 0.4); */
-/*   } */
-/*   70% { */
-/*       -moz-box-shadow: 0 0 0 20px rgba(46,49,146, 0); */
-/*       box-shadow: 0 0 0 20px rgba(46,49,146, 0); */
-/*   } */
-/*   100% { */
-/*       -moz-box-shadow: 0 0 0 0 rgba(46,49,146, 0); */
-/*       box-shadow: 0 0 0 0 rgba(46,49,146, 0); */
-/*   } */
-/* } */
