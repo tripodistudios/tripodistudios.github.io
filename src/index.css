@@ -5,6 +5,7 @@ body {
     color: white;
     background-color: #a0a1cd;
     font-family: Arial,sans-serif;
+    animation: background-change 12s infinite;
 }
 
 #root {
@@ -184,27 +185,39 @@ hr.large {
     color:black !important;
 }
 
-.row h2 {
+.row h1 {
     margin:0;
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Rubik', sans-serif;
 }
 
 /* About */
 .header {
-    padding-top: 70px;
-    padding-bottom: 0px;
     color: black;
 }
 
-/* Footer */
-#footer {
-    border-top: 1px solid #000;
-    padding: 50px 0;
-    background:    /* top, transparent red */
-    linear-gradient(
-    rgba(0, 0, 0, 0.45),
-    rgba(0, 0, 0, 0.45)
-    ), url("./image/desk.jpg");
-    background-size: cover;
+#content-container {
+    margin: 0 auto;
+}
+#content-row {
+    width:100%;
+    margin: 0 auto;
 }
 
-
+@keyframes background-change {
+  0% {
+    background-color: #a0a1cd;
+  }
+  25% {
+    background-color: #000;
+  }
+  50% {
+    background-color: #a0a1cd;
+  }
+  75% {
+    background-color: #fff;
+  }
+  100% {
+    background-color: #a0a1cd;
+  }
+}
